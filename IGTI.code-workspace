@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "CAP01"
+    },
+    {
+      "path": "CAP02"
+    },
+    {
+      "path": "CAP03"
+    },
+    {
+      "path": "CAP04"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "CAP04"
+  }
+}

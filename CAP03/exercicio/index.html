@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Trabalho prático</h1>
+
+    <div class="flex-row">
+      <span class="label">(R) Vermelho</span>
+      <input
+        class="range"
+        id="inputRed"
+        type="range"
+        min="0"
+        max="255"
+        step="1"
+        value="0"
+      />
+      <input class="text" id="textRed" type="text" value="0" disabled />
+    </div>
+
+    <div class="flex-row">
+      <span class="label">(G) Verde</span>
+      <input
+        class="range"
+        id="inputGreen"
+        type="range"
+        min="0"
+        max="255"
+        step="1"
+        value="0"
+      />
+      <input class="text" id="textGreen" type="text" value="0" disabled />
+    </div>
+
+    <div class="flex-row">
+      <span class="label">(B) Azul</span>
+      <input
+        class="range"
+        id="inputBlue"
+        type="range"
+        min="0"
+        max="255"
+        step="1"
+        value="0"
+      />
+      <input class="text" id="textBlue" type="text" value="0" disabled />
+    </div>
+    <div id="square"></div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
