@@ -11,9 +11,12 @@
     },
     {
       "path": "CAP04"
+    },
+    {
+      "path": "CAP05"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "CAP04"
+    "liveServer.settings.multiRootWorkspaceName": "CAP05"
   }
 }
