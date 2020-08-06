@@ -1,0 +1,38 @@
+h1,
+h2 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+#labelName {
+  color: rgb(155, 218, 62);
+}
+
+.user-list {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+}
+
+.list-container {
+  padding-top: 10px;
+  display: flex;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

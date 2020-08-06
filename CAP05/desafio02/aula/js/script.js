@@ -68,7 +68,7 @@ function renderCountryList() {
       <div>
         <ul>
         <li> ${name}</li>
-        <li>${population}</li>
+        <li>${formatNumber(population)}</li>
         </ul>
       </div>
     </div>
@@ -97,7 +97,7 @@ function renderFavorites() {
       <div>
         <ul>
         <li> ${name}</li>
-        <li>${population}</li>
+        <li>${formatNumber(population)}</li>
         </ul>
       </div>
     </div>
@@ -119,8 +119,8 @@ function renderSummary() {
   const totalFavorites = favoriteCountries.reduce((accumulator, current) => {
     return accumulator + current.population;
   }, 0);
-  totalPopulationList.textContent = totalPopulation;
-  totalPopulationFavorites.textContent = totalFavorites;
+  totalPopulationList.textContent = formatNumber(totalPopulation);
+  totalPopulationFavorites.textContent = formatNumber(totalFavorites);
 }
 function handleCountryButtons() {
   const countryButtons = Array.from(tabCountries.querySelectorAll('.btn'));
@@ -140,8 +140,31 @@ function handleCountryButtons() {
 }
 
 function addToFavorites(id) {
-  const countryToAdd = allCountries.find((button) => button.id === id);
+  const countryToAdd = allCountries.find((country) => country.id === id);
   console.log(countryToAdd);
+  favoriteCountries = [...favoriteCountries, countryToAdd];
+  // função para ordernar em ordem alfabética
+  favoriteCountries.sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
+  allCountries = allCountries.filter((country) => country.id !== id);
+  render();
+  console.log(favoriteCountries.length);
+  console.log(allCountries.length);
 }
 
-function removeToFavorites(id) {}
+function removeFromFavorites(id) {
+  const countryToRemove = favoriteCountries.find(
+    (country) => country.id === id
+  );
+  console.log(countryToRemove);
+  allCountries = [...allCountries, countryToRemove];
+  allCountries = allCountries.sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
+  favoriteCountries = favoriteCountries.filter((country) => country.id !== id);
+  render();
+}
+function formatNumber(number) {
+  return numberFormat.format(number);
+}

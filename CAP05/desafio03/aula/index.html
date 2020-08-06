@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Desafio</title>
+  </head>
+  <body>
+    <h1>Pesquisa de usuários</h1>
+    <div class="search-container">
+      <label id="labelName">Busca</label>
+      <div>
+        <input
+          id="inputName"
+          type="text"
+          size="90"
+          placeholder="Informar um nome aqui..."
+        />
+        <button id="buttonSearch">Buscar</button>
+      </div>
+    </div>
+    <div class="list-container">
+      <div class="user-list">
+        <h2><span id="countUsers"></span> usuário(s) encontrado(s)</h2>
+        <div id="tabUsers"></div>
+      </div>
+
+      <div class="user-list">
+        <h2>Estatística</h2>
+        <h4>Sexo Masculino: <span id="countMan"></span></h4>
+        <h4>Sexo Feminino: <span id="countWoman"></span></h4>
+        <h4>Soma das idades: <span id="sumAge"></span></h4>
+        <h4>Médias das idades: <span id="avgAge"></span></h4>
+        <div id="tabResults"></div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
