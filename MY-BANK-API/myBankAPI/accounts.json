@@ -1,0 +1,35 @@
+{
+  "nextId": 7,
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Maycoln Dias",
+      "balance": 200
+    },
+    {
+      "id": 2,
+      "name": "Maycoln Dias",
+      "balance": 200
+    },
+    {
+      "id": 3,
+      "name": "Maycoln Dias",
+      "balance": 200
+    },
+    {
+      "id": 4,
+      "name": "Maycoln Dias",
+      "balance": 200
+    },
+    {
+      "id": 5,
+      "name": "Maycoln Dias",
+      "balance": 200
+    },
+    {
+      "id": 6,
+      "name": "Maycoln Dias",
+      "balance": 200
+    }
+  ]
+}

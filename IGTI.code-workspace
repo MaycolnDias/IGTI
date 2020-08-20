@@ -17,6 +17,9 @@
     },
     {
       "path": "Node"
+    },
+    {
+      "path": "MY-BANK-API"
     }
   ],
   "settings": {

@@ -1,0 +1,30 @@
+2020-08-19T16:44:27.859Z [my-app] error: Erro log
+2020-08-19T16:44:27.874Z [my-app] warn: Warn log
+2020-08-19T16:44:27.876Z [my-app] info: Infor log
+2020-08-19T16:44:27.877Z [my-app] verbose: Verbose log
+2020-08-19T16:44:27.879Z [my-app] debug: Debug log
+2020-08-19T16:44:27.882Z [my-app] silly: Silly log
+2020-08-19T16:44:27.884Z [my-app] info: Hello with parameter!
+2020-08-19T16:47:23.309Z [my-app] error: Error log
+2020-08-19T16:47:23.325Z [my-app] warn: Warn log
+2020-08-19T16:47:23.326Z [my-app] info: Infor log
+2020-08-19T16:47:23.327Z [my-app] verbose: Verbose log
+2020-08-19T16:47:23.329Z [my-app] debug: Debug log
+2020-08-19T16:47:23.331Z [my-app] silly: Silly log
+2020-08-19T16:47:23.334Z [my-app] info: Hello with parameter!
+2020-08-19T16:47:36.846Z [my-app] error: Error log
+2020-08-19T16:47:36.860Z [my-app] warn: Warn log
+2020-08-19T16:47:48.325Z [my-app] error: Error log
+2020-08-19T16:47:48.350Z [my-app] warn: Warn log
+2020-08-19T16:47:48.354Z [my-app] info: Infor log
+2020-08-19T16:47:48.358Z [my-app] verbose: Verbose log
+2020-08-19T16:47:48.377Z [my-app] info: Hello with parameter!
+2020-08-19T16:48:02.891Z [my-app] error: Error log
+2020-08-19T16:48:02.908Z [my-app] warn: Warn log
+2020-08-19T16:48:12.696Z [my-app] error: Error log
+2020-08-19T16:48:12.723Z [my-app] warn: Warn log
+2020-08-19T16:48:12.733Z [my-app] info: Infor log
+2020-08-19T16:48:12.747Z [my-app] verbose: Verbose log
+2020-08-19T16:48:12.751Z [my-app] debug: Debug log
+2020-08-19T16:48:12.757Z [my-app] silly: Silly log
+2020-08-19T16:48:12.763Z [my-app] info: Hello with parameter!
